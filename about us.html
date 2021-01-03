@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  
+
+}
+ul{
+  float:right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration:none;
+  color: black;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition:0.6s ease;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color:#9c9;
+}
+
+ul li.active a{
+  background-color: #fff;
+  color:#9c9;
+  
+}
+
+
+body {
+  font-family: papyrus,fantasy;
+  margin: 0;
+  background-image: url("paper.gif");
+  background-color: #cccccc;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  font-family: "Lucida Handwriting",cursive;
+  padding: 50px;
+  text-align: center;
+  background-color: #4d0026;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: black ;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: black;
+  background-color: #e5b382;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
+  <div class="main">
+      <ul>
+        <li><a onclick="alert('WELCOME TO BRUNCH & MUNCH');" href="home.html">HOME</a></li>
+        <li><a href="photos.html">IMAGES</a></li>
+        <li><a href="table.html">RESERVATION</a></li>
+        <li><a href="feedback1.html">FEEDBACK</a></li>
+        <li><a href="web menu.html">MENU</a></li>
+        <li><a href="about us.html">ABOUT US</a></li>
+
+        
+      </ul>
+    </div>
+
+<div class="about-section">
+  <h1>About Us </h1>
+  <p>We are a group of three friends trying to make good food.</p>
+  <p>Here is some information about the three of us about what do we contribute to manage our restaurant and the details through which you can contact us in any need.</p>
+  <p>It was started in he year 2012 with the three of us coming together.we work on it to make it better everyday.we hope you enjoy your experience at our restaurant.
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      
+      <div class="container">
+        <h2><b>Meghana Patil</b></h2>
+        <p class="title"><b>Manages Orders</b></p>
+        <p><b>In case of any problems in placing an order or the bills, I'm here to help you!</b></p>
+        <p><b>meghanapatil2000@gmail.com</b></p>
+        <p><button class="button"><b>Contact</b></button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      
+      <div class="container">
+        <h2><b>Nisha Naik</b></h2>
+        <p class="title"><b>All about FOOOOD</b></p>
+        <p><b>If you have any suggestions or issues related to the quality, taste or type of the food order, you can always contact me. </b> </p>
+        <p><b>nishaatn2001@gmail.com</b></p>
+        <p><button class="button"><b>Contact</b></button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      
+      <div class="container">
+        <h2><b>Parimita Siddarkar</b></h2>
+        <p class="title"><b>Design and media</b></p>
+        <p><b>I handle everything related to the decor, hygiene and our customer reviews.</b></p>
+        <p><b>siddarkarparimita@gmail.com</b></p>
+        <p><button class="button"><b>Contact</b></button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
